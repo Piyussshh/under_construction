@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex; 
+    align-items: center;
+}
+
+#navbar::before{
+    content: " ";
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+
+}
+
+
+/* logo and image */
+
+#logo{
+margin: 10px 34px;
+}
+#logo img{
+    height: 45px;
+margin: 3px 6px;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+list-style:none;
+font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover{
+   background:white;
+    color: black;
+}
