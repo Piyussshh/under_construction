@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>onlineMeals.com</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 780px)"  href="css/phone.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Bree+Serif&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Bree+Serif&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <nav id="navbar">
         <div id="logo">
@@ -28,28 +33,83 @@
         <button class="btn">Order Food</button>
     </section>
     <section class="services-container">
-       <h1 class="h-primary center">Our Services</h1>
-       <div id="services">
-           <div class="box">
-               <img src="images/images.jpeg" alt="">
-               <h2 class="h-secondary center">Food Ordering</h2>
-               <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A porro alias quia fugiat similique, repudiandae deserunt id corrupti nisi asperiores atque, optio illo minima suscipit enim? Amet rem placeat iure.</p>
-               
-           </div>
-           <div class="box">
-            <img src="images/images.jpeg" alt="">
-            <h2 class="h-secondary center">Food Catering</h2>
-            <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A porro alias quia fugiat similique, repudiandae deserunt id corrupti nisi asperiores atque, optio illo minima suscipit enim? Amet rem placeat iure.</p>
-            
-        </div> 
-        <div class="box">
-            <img src="images/images.jpeg" alt="">
-            <h2 class="h-secondary center">Bulk Ordering</h2>
-            <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A porro alias quia fugiat similique, repudiandae deserunt id corrupti nisi asperiores atque, optio illo minima suscipit enim? Amet rem placeat iure.</p>
-            
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/4108/4108769.svg?token=exp=1611855093~hmac=368825696aad394702ba75388064bc8c" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A porro alias quia fugiat
+                    similique, repudiandae deserunt id corrupti nisi asperiores atque, optio illo minima suscipit enim?
+                    Amet rem placeat iure.</p>
+
+            </div>
+            <div class="box">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/2766/2766346.svg?token=exp=1611855018~hmac=1822dbeaf0a2e673af25e7fa35a4252f" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A porro alias quia fugiat
+                    similique, repudiandae deserunt id corrupti nisi asperiores atque, optio illo minima suscipit enim?
+                    Amet rem placeat iure.</p>
+
+            </div>
+            <div class="box">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/4108/4108769.svg?token=exp=1611855093~hmac=368825696aad394702ba75388064bc8c" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A porro alias quia fugiat
+                    similique, repudiandae deserunt id corrupti nisi asperiores atque, optio illo minima suscipit enim?
+                    Amet rem placeat iure.</p>
+
+            </div>
         </div>
-       </div>
 
     </section>
+    <section id="client-section">
+        <h1 class="h-primary center">clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/1409/1409946.svg?token=exp=1611854085~hmac=6342f483c0e9ed297f7c3d103e6f42f5" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/518/518714.svg?token=exp=1611854126~hmac=28f735a84b36b226eb64e16c3714ba32" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/2991/2991148.svg?token=exp=1611854206~hmac=412fba0611ac59b48889b351da85a247" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/1419/1419497.svg?token=exp=1611854267~hmac=b032d72abeb6fe4b5a0fb7818f63650d" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="https://www.flaticon.com/svg/vstatic/svg/1177/1177491.svg?token=exp=1611854329~hmac=c6693264444536a959078913ec5f48a3" alt="our client">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your Phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; OnlineMeals.com All rights reserved
+        </div>
+    </footer>
 </body>
+
 </html>
